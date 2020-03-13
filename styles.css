@@ -1,0 +1,37 @@
+
+body {
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 0;
+}
+
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    border-radius: 3%;
+    width: 100%;
+    border: hsl(229, 6%, 66%) 2px solid;
+    padding: 5px;
+}
+
+#card1 {
+    border-top: 2px solid hsl(180, 62%, 55%);
+}
+
+#card2 {
+    border-top: 2px solid hsl(0, 78%, 62%);
+}
+
+#card3 {
+    border-top: 2px solid hsl(34, 97%, 64%);
+}
+
+#card4 {
+    border-top: 2px solid hsl(212, 86%, 64%);
+}
+
